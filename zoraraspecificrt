@@ -1,0 +1,3 @@
+getgenv()._WebSocket = getgenv().WebSocket
+getgenv().WebSocket = nil
+assert(getexecutorname() == "Zorara", "This is not the official Zorara executor. Use at your own risk!", 3)
